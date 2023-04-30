@@ -27,7 +27,7 @@ body {
 }
 
 nav {
-  background-color: #232f3e;
+  background-color: #3e2338;
   padding: 1rem 1rem;
 }
 
@@ -498,7 +498,7 @@ footer {
 #sidebar {
   min-width: 100%;
   max-width: 100%;
-  background: #232f3e;
+  background: #3e2338;
   color: #fff;
   transition: all 0.3s;
 }
@@ -508,11 +508,11 @@ footer {
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #232f3e;
+  background: #3e2338;
 }
 #sidebar ul.components {
   padding: 5px 0px;
-  border-bottom: 1px solid #232f3e;
+  border-bottom: 1px solid #3e2338;
 }
 
 #sidebar ul li a {
@@ -523,7 +523,7 @@ footer {
   text-decoration: none;
 }
 #sidebar ul li a:hover {
-  color: #232f3e;
+  color: black;
   background: #fff;
 }
 
