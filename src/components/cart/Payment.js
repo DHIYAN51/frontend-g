@@ -78,7 +78,7 @@ export default function Payment() {
             })
 
             if(result.error){
-                toast(result.error.message, {
+                toast((await result).error.message, {
                     type: 'error',
                     position: toast.POSITION.BOTTOM_CENTER
                 })

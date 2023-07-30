@@ -1,11 +1,15 @@
 import {useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import Header from '../layouts/Header';
 
 export default function Profile () {
     const { user }  = useSelector(state => state.authState);
 
     return (
+        <div>
+       
         <div className="row justify-content-around mt-5 user-info">
+          
             <div className="col-12 col-md-3">
                 <figure className='avatar avatar-profile'>
                     <img className="rounded-circle img-fluid" src={user.avatar??'./images/default_avatar.png'} alt='avatar' />
@@ -33,6 +37,7 @@ export default function Profile () {
                     Change Password
                 </Link>
             </div>
+        </div>
         </div>
     )
 }

@@ -6,6 +6,8 @@ import MetaData from "./layouts/MetaData";
 import Product from "./product/Product";
 import { toast } from "react-toastify";
 import Pagination from "react-js-pagination";
+import Header from "./layouts/Header";
+ 
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -34,6 +36,7 @@ export default function Home() {
       ) : (
         <Fragment>
           <MetaData title={"Buy Best Products"} />
+          
           <h1 id="products_heading">Latest Products.....</h1>
           <section id="products" className="container mt-5">
             <div className="row">

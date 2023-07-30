@@ -4,6 +4,7 @@ import {MDBDataTable} from 'mdbreact'
 import { useDispatch, useSelector } from 'react-redux';
 import { userOrders as userOrdersAction } from '../../actions/orderActions';
 import { Link } from 'react-router-dom';
+import Header from '../layouts/Header';
 
 export default function UserOrders () {
     const { userOrders = []} = useSelector(state => state.orderState)
@@ -67,6 +68,7 @@ export default function UserOrders () {
     return (
         <Fragment>
             <MetaData title="My Orders" />
+           
             <h1 className='mt-5'>My Orders</h1> 
             <MDBDataTable
                 className='px-3'
