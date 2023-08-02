@@ -53,8 +53,5 @@
       "last 1 safari version"
     ]
   },
- 
-  "proxy":  "https://ecom-backend-nfei.onrender.com"
-
+  "proxy":"https://ecom-backend-nfei.onrender.com"
 }
-  
